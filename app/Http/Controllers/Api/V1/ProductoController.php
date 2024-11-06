@@ -12,13 +12,12 @@ class ProductoController extends Controller
      * Display a listing of the resource.
      */
     public function index()
-{
-    dd($request);
+    {
+        
+         return response()->json(Producto::all(), 200); //200: OK
     
-    $productos = Producto::all(); // Aquí se obtiene la lista de productos
+    }
 
-    return response()->json($productos, 200); // Se devuelve la lista de productos en formato JSON
-}
     /**
      * Store a newly created resource in storage.
      */
