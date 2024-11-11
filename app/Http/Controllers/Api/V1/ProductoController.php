@@ -23,6 +23,7 @@ class ProductoController extends Controller
      */
     public function store(Request $request)
     {
+
        // Validar Productos
         $datos = $request->validate([
         'nombre' =>['required', 'string', 'max:100'],
@@ -49,6 +50,7 @@ class ProductoController extends Controller
      */
     public function update(Request $request, Producto $producto)
     {
+
        // Validar datos de entrada
        $datos = $request->validate([
        'nombre' =>['required', 'string','max:100'],
