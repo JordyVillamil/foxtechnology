@@ -9,12 +9,12 @@
 </head>
 <body>
     <header>
-        {{-- esto es un comentario --}}
+        {{-- barra de navegacion --}}
         @include('layouts.navbar')
     </header>
 
     <main>
-        @yield('contenico')
+        @yield('contenido',)
     </main>
 
     <footer>
