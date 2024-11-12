@@ -3,18 +3,18 @@
 @section('titulo', 'Pagina Principal')
 
 @section('contenido')
-<div class="hero bg-base-200 min-h-screen">
-    <div class="hero-content flex-col lg:flex-row-reverse">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-        class="max-w-sm rounded-lg shadow-2xl" />
-      <div>
-        <h1 class="text-5xl font-bold">Bienvenido a foxtechnology</h1>
-        <p class="py-6">
-          Bienvenido a Foxtecnology empresa numero uno en software en Colombia.
-        </p>
-        <button class="btn btn-primary">Get Started</button>
-      </div>
+<div
+  class="hero min-h-screen"
+  style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">Foxtechnology</h1>
+      <p class="mb-5">
+        Bienvenido a la mejor empresa de software de Colombia.
+      </p>
+      <button class="btn btn-primary">Get Started</button>
     </div>
   </div>
+</div>
 @endsection
