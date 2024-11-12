@@ -11,8 +11,7 @@
       <div>
         <h1 class="text-5xl font-bold">Bienvenido a foxtechnology</h1>
         <p class="py-6">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-          quasi. In deleniti eaque aut repudiandae et a id nisi.
+          Bienvenido a Foxtecnology empresa numero uno en software en Colombia.
         </p>
         <button class="btn btn-primary">Get Started</button>
       </div>
