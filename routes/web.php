@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'welcome');
+
 Route::resource("productos", App\Http\Controllers\ProductoController::class);
