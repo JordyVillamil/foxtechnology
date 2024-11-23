@@ -21,4 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 // Asegúrate de que esta línea esté FUERA del middleware 'auth:sanctum'
-Route::apiResource("v1/productos", ProductoController::class);
+Route::apiResource("v1/productos", App\Http\Controllers\Api\V1\ProductoController::class);

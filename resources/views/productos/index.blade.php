@@ -3,13 +3,13 @@
 @section('titulo', 'Nuestros Productos')
 
 @section('contenido')
-{{-- Botón para crear un producto nuevo --}}
-<div class="flex justify-end m-4">
-    <a href="{{ route('productos.create') }}" class="btn btn-outline">Nuevo producto</a>
-    </div>
+        {{-- Botón para crear un producto nuevo --}}
+        <div class="flex justify-end m-4">
+          <a href="{{ route('productos.create') }}" class="btn btn-outline">Nuevo producto</a>
+             </div>
 
-    <div class= "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-6">
-    @foreach ($productos as $producto)
+      <div class= "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-6">
+        @foreach ($productos as $producto)
         <div class="card bg-base-100 w-96 shadow-xl m-8">
             <figure class="px-10 pt-10">
                 <img
@@ -27,8 +27,8 @@
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="btn btn-outline btn-xs">Eliminar</button>
-                   </form>                   
-                <div class="card-actions">
+                       </form>                   
+                      <div class="card-actions">
                     <button class="btn btn-primary">Buy Now</button>
                 </div>
             </div>
